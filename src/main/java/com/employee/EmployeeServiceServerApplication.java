@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         info = @Info(
                 title = "Employee Service Server",
                 version = "1.0.0",
-                description = "It's an Employee service where we can store, get and delete employee details with update",
+                description = "It's an Employee service where we can store employee details with an update",
                 termsOfService = "Java Technologies",
                 contact = @Contact(
                         name = "Bhaskar K",
