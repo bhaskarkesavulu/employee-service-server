@@ -1,0 +1,14 @@
+server:
+  port: 2024
+spring:
+  application:
+    name: EMPLOYEE-SERVICE-SERVER
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/dev
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
