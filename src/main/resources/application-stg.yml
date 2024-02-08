@@ -8,7 +8,16 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
+    hikari:
+      maximum-pool-size: 1000
+      idle-timeout: 100
+      minimum-idle: 50
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
